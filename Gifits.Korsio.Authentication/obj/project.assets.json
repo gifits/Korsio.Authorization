@@ -2819,23 +2819,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gm105612\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gifits\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authorization.Api.csproj",
+      "projectUniqueName": "C:\\GifitsRepo\\Korsio.Authorization\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authorization.Api.csproj",
       "projectName": "Gifits.Korsio.Authorization.Api",
-      "projectPath": "C:\\Gifits\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authorization.Api.csproj",
-      "packagesPath": "C:\\Users\\gm105612\\.nuget\\packages\\",
-      "outputPath": "C:\\Gifits\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authentication\\obj\\",
+      "projectPath": "C:\\GifitsRepo\\Korsio.Authorization\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authorization.Api.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\GifitsRepo\\Korsio.Authorization\\Gifits.Korsio.Authentication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gm105612\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2844,21 +2846,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\gm105612\\source\\repos\\RepositoryNugget\\RepositoryNugget\\bin\\Debug": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Gifits\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authentication.Application\\Gifits.Korsio.Authorization.Application.csproj": {
-              "projectPath": "C:\\Gifits\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authentication.Application\\Gifits.Korsio.Authorization.Application.csproj"
+            "C:\\GifitsRepo\\Korsio.Authorization\\Gifits.Korsio.Authentication.Application\\Gifits.Korsio.Authorization.Application.csproj": {
+              "projectPath": "C:\\GifitsRepo\\Korsio.Authorization\\Gifits.Korsio.Authentication.Application\\Gifits.Korsio.Authorization.Application.csproj"
             },
-            "C:\\Gifits\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authentication.Domain\\Gifits.Korsio.Authorization.Domain.csproj": {
-              "projectPath": "C:\\Gifits\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authentication.Domain\\Gifits.Korsio.Authorization.Domain.csproj"
+            "C:\\GifitsRepo\\Korsio.Authorization\\Gifits.Korsio.Authentication.Domain\\Gifits.Korsio.Authorization.Domain.csproj": {
+              "projectPath": "C:\\GifitsRepo\\Korsio.Authorization\\Gifits.Korsio.Authentication.Domain\\Gifits.Korsio.Authorization.Domain.csproj"
             },
-            "C:\\Gifits\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authentication.Infrastructure\\Gifits.Korsio.Authorization.Infrastructure.csproj": {
-              "projectPath": "C:\\Gifits\\Gifits.Korsio.Authentication\\Gifits.Korsio.Authentication.Infrastructure\\Gifits.Korsio.Authorization.Infrastructure.csproj"
+            "C:\\GifitsRepo\\Korsio.Authorization\\Gifits.Korsio.Authentication.Infrastructure\\Gifits.Korsio.Authorization.Infrastructure.csproj": {
+              "projectPath": "C:\\GifitsRepo\\Korsio.Authorization\\Gifits.Korsio.Authentication.Infrastructure\\Gifits.Korsio.Authorization.Infrastructure.csproj"
             }
           }
         }

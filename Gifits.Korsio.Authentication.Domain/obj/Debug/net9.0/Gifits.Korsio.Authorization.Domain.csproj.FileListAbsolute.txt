@@ -9,3 +9,15 @@ C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\D
 C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\refint\Gifits.Korsio.Authorization.Domain.dll
 C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.pdb
 C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\ref\Gifits.Korsio.Authorization.Domain.dll
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\bin\Debug\net9.0\Gifits.Korsio.Authorization.Domain.deps.json
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\bin\Debug\net9.0\Gifits.Korsio.Authorization.Domain.dll
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\bin\Debug\net9.0\Gifits.Korsio.Authorization.Domain.pdb
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.AssemblyInfoInputs.cache
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.AssemblyInfo.cs
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.csproj.CoreCompileInputs.cache
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.sourcelink.json
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.dll
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\refint\Gifits.Korsio.Authorization.Domain.dll
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.pdb
+C:\GifitsRepo\Korsio.Authorization\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\ref\Gifits.Korsio.Authorization.Domain.dll

@@ -21,11 +21,21 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
     app.MapScalarApiReference(options =>
     {
-        options.WithTitle("Demo")
+        options.WithTitle("Korsio Authentication")
         .WithTheme(ScalarTheme.BluePlanet)
         .WithDefaultHttpClient(ScalarTarget.CSharp, ScalarClient.HttpClient);
     });
-    app.MapGet("/", () => Results.Redirect("scalar/v1"));
+    //app.MapGet("/", () => Results.Redirect("scalar/v1"));
+
+    app.Use(async (context, next) =>
+    {
+        if (context.Request.Path == "/")
+        {
+            context.Response.Redirect("/scalar/v1");
+            return; // Termina la ejecución aquí para evitar que se procese el siguiente middleware
+        }
+        await next();
+    });
 }
 
 app.UseHttpsRedirection();

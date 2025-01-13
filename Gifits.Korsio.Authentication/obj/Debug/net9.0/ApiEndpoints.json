@@ -1,21 +1,5 @@
 [
   {
-    "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_1",
-    "RelativePath": "",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
     "ContainingType": "Gifits.Korsio.Authorization.Controllers.Authentication.GetTokenByEmail.AuthorizationController",
     "Method": "GetTokenbyEmail",
     "RelativePath": "api/Authorization/by-email",
@@ -26,6 +10,22 @@
       {
         "Name": "req",
         "Type": "Gifits.Korsio.Authorization.Api.Dto.GetTokenByEmail.GetTokenByEmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Gifits.Korsio.Authorization.Api.Controllers.Authorization.ValidateGoogleToken.AuthorizationController",
+    "Method": "GetTokenbyEmail",
+    "RelativePath": "api/Authorization/google",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Gifits.Korsio.Authorization.Api.Dto.ValidateGoogelToken.ValidateGoogleTokenRequest",
         "IsRequired": true
       }
     ],
