@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Gifits.Korsio.Authorization.Api.props" />
+</Project>

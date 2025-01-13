@@ -1,0 +1,11 @@
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\bin\Debug\net9.0\Gifits.Korsio.Authorization.Domain.deps.json
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\bin\Debug\net9.0\Gifits.Korsio.Authorization.Domain.dll
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\bin\Debug\net9.0\Gifits.Korsio.Authorization.Domain.pdb
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.AssemblyInfoInputs.cache
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.AssemblyInfo.cs
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.csproj.CoreCompileInputs.cache
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.dll
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\refint\Gifits.Korsio.Authorization.Domain.dll
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\Gifits.Korsio.Authorization.Domain.pdb
+C:\Gifits\Gifits.Korsio.Authentication\Gifits.Korsio.Authentication.Domain\obj\Debug\net9.0\ref\Gifits.Korsio.Authorization.Domain.dll

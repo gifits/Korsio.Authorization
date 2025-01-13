@@ -1,0 +1,6 @@
+# @Gifits.Korsio.Authentication_HostAddress = http://localhost:5001
+
+GET {{Gifits.Korsio.Authentication_HostAddress}}/api/Authorization/by-email
+Accept: application/json
+
+###

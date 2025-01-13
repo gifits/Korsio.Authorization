@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Gifits.Korsio.Authorization.Domain/1.0.0": {
+        "runtime": {
+          "Gifits.Korsio.Authorization.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gifits.Korsio.Authorization.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
