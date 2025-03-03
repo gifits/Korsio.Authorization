@@ -12,6 +12,22 @@ namespace Gifits.Korsio.Authorization.Infrastructure.Repositories.UserRepository
         {
             _korsioDbContext = korsioDbContext;
         }
+
+        public async Task<KtUser> Create(KtUser user)
+        {
+            try
+            {
+                _korsioDbContext.Users.Add(user);
+                await _korsioDbContext.SaveChangesAsync();
+                return user;
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
         public async Task<KtUser> GetByEmail(string email)
         {
             try
@@ -29,6 +45,18 @@ namespace Gifits.Korsio.Authorization.Infrastructure.Repositories.UserRepository
             try
             {
                 return await _korsioDbContext.Users.FirstOrDefaultAsync(u => u.Id == userId);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public async Task<bool> UserEmailExists(string email)
+        {
+            try
+            {
+                return await _korsioDbContext.Users.AnyAsync(u => u.Email == email);
             }
             catch (Exception ex)
             {

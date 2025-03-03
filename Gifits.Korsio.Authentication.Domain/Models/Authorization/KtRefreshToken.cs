@@ -9,11 +9,13 @@ namespace Gifits.Korsio.Authorization.Domain.Models.Authorization
     {
         [Key]
         public int Id { get; set; }
-        [ForeignKey(nameof(Id))]
+        [Column("user_id")]
         public int UserId { get; set; }
         public string Token { get; set; }
+        [Column("expires_on_utc")]
         public DateTime ExpiresOnUtc { get; set; }
 
+        [ForeignKey(nameof(UserId))]
         public KtUser User { get; set; }
     }
 }
