@@ -1,4 +1,4 @@
-﻿using Gifits.Korsio.Authorization.Application.Dto.Athentication.CreateAccount;
+﻿using Gifits.Korsio.Authorization.Application.Dto.Athentication.RegisterUser;
 using Gifits.Korsio.Authorization.Domain.Models.User;
 
 namespace Gifits.Korsio.Authorization.Application.Contracts.UserRepository

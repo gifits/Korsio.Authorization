@@ -5,6 +5,8 @@ namespace Gifits.Korsio.Authorization.Application.Contracts.RefreshTokenReposito
     public interface IRefreshTokenRepository
     {
         Task<KtRefreshToken> Create(KtRefreshToken refreshToken);
+        Task<KtRefreshToken> GetCurrentByUserId(int userId);
         Task<KtRefreshToken> GetCurrentToken(string token);
+        Task<KtRefreshToken> Update(KtRefreshToken? entity);
     }
 }

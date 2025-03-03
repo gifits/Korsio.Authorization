@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using Gifits.Korsio.Authentication.Application.Services.Authorization.GetTokenByEmail;
 using Gifits.Korsio.Authorization.Application.Services.Authentication.CreateAccountService;
+using Gifits.Korsio.Authorization.Application.Services.Authentication.Logout;
 using Gifits.Korsio.Authorization.Application.Services.Authentication.UserLogin;
 using Gifits.Korsio.Authorization.Application.Services.Authorization.RefreshToken;
 using Gifits.Korsio.Authorization.Application.Services.Authorization.ValidateGoogleToken;
@@ -21,9 +22,10 @@ namespace Gifits.Korsio.Authorization.Application.DependencyInjection
             services.AddScoped<GenerateRefreshTokenService>();
             services.AddScoped<RefreshTokenService>();
             services.AddScoped<ValidateGoogleTokenService>();
-            services.AddScoped<CreateAccountService>();
+            services.AddScoped<RegisterUserService>();
             services.AddScoped<UserLoginService>();
             services.AddSingleton<PasswordHasher>();
+            services.AddScoped<UserLogoutService>();
 
             //validator
             services.AddValidatorsFromAssemblyContaining<CreateAccountValidator>();

@@ -1,10 +1,10 @@
 ﻿using FluentValidation;
 using Gifits.Korsio.Authorization.Application.Contracts.UserRepository;
-using Gifits.Korsio.Authorization.Application.Dto.Athentication.CreateAccount;
+using Gifits.Korsio.Authorization.Application.Dto.Athentication.RegisterUser;
 
 namespace Gifits.Korsio.Authorization.Application.Validators.CreateAccount
 {
-    public class CreateAccountValidator : AbstractValidator<CreateAccountRequest>
+    public class CreateAccountValidator : AbstractValidator<RegisterUserRequest>
     {
         public CreateAccountValidator(IUserRepository userRepository) 
         {

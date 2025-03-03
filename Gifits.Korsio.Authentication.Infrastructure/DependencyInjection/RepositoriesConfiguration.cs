@@ -1,6 +1,8 @@
 ﻿using Gifits.Korsio.Authorization.Application.Contracts.RefreshTokenRepository;
+using Gifits.Korsio.Authorization.Application.Contracts.SecurityRepository;
 using Gifits.Korsio.Authorization.Application.Contracts.UserRepository;
 using Gifits.Korsio.Authorization.Infrastructure.Repositories.RefreshTokenRepository;
+using Gifits.Korsio.Authorization.Infrastructure.Repositories.SecurityRepository;
 using Gifits.Korsio.Authorization.Infrastructure.Repositories.UserRepository;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +15,7 @@ namespace Gifits.Korsio.Authorization.Infrastructure.DependencyInjection
         {
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+            services.AddScoped<ISecurityRepository, SecurityRepository>();
             return services;
         }
     }

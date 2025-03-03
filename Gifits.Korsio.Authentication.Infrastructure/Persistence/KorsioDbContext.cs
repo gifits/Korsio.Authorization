@@ -1,4 +1,5 @@
 ﻿using Gifits.Korsio.Authorization.Domain.Models.Authorization;
+using Gifits.Korsio.Authorization.Domain.Models.Security;
 using Gifits.Korsio.Authorization.Domain.Models.User;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,5 +11,6 @@ namespace Gifits.Korsio.Authorization.Infrastructure.Persistence
         
         public DbSet<KtUser> Users { get; set; }
         public DbSet<KtRefreshToken> RefreshTokens { get; set; }
+        public DbSet<KtSecurity> Securities { get; set; }
     }
 }

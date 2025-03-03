@@ -26,6 +26,22 @@ namespace Gifits.Korsio.Authorization.Infrastructure.Repositories.RefreshTokenRe
             }
         }
 
+        public async Task<KtRefreshToken> GetCurrentByUserId(int userId)
+        {
+            try
+            {
+                return await _korsioDbContext.RefreshTokens
+                        .Where(x => x.UserId == userId 
+                        && x.ExpiresOnUtc >= DateTime.UtcNow)
+                        .FirstOrDefaultAsync();
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
         public async Task<KtRefreshToken> GetCurrentToken(string token)
         {
             try
@@ -33,6 +49,20 @@ namespace Gifits.Korsio.Authorization.Infrastructure.Repositories.RefreshTokenRe
                 return await _korsioDbContext.RefreshTokens
                     .Include(x => x.User)
                     .FirstOrDefaultAsync(x => x.Token == token);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public async Task<KtRefreshToken> Update(KtRefreshToken entity)
+        {
+            try
+            {
+                _korsioDbContext.RefreshTokens.Update(entity);
+                await _korsioDbContext.SaveChangesAsync();
+                return entity;
             }
             catch (Exception ex)
             {

@@ -1,6 +1,6 @@
-﻿namespace Gifits.Korsio.Authorization.Application.Dto.Athentication.CreateAccount
+﻿namespace Gifits.Korsio.Authorization.Application.Dto.Athentication.RegisterUser
 {
-    public class CreateAccountRequest
+    public class RegisterUserRequest
     {
         public string Name { get; set; }
         public string LastName { get; set; }
